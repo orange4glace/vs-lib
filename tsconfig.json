@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+    "module": "esnext",
+    "target": "es2017",
+		"moduleResolution": "node",
+		"experimentalDecorators": true,
+		"noImplicitReturns": true,
+		"forceConsistentCasingInFileNames": true,
+		"baseUrl": "./lib",
+    "declaration": true,
+		"declarationDir": "types",
+    "outDir": "./dist",
+    "rootDir": "./lib",
+		"lib": [
+			"ES2015",
+			"ES2017.String",
+			"ES2018.Promise",
+			"DOM",
+			"DOM.Iterable",
+			"WebWorker.ImportScripts"
+		],
+		"sourceMap": true
+	},
+	"include": [
+		"./"
+	],
+	"exclude": [
+		"node_modules/"
+	]
+}

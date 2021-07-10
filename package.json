@@ -1,0 +1,25 @@
+{
+  "name": "@orange4glace/vs-lib",
+  "version": "1.0.4",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "types": "types/@orange4glace/vs-lib/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "tsd": "tsc --emitDeclarationOnly"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "create-ts-index": "^1.13.6",
+    "rollup": "^2.36.1",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "@rollup/plugin-typescript": "^8.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
