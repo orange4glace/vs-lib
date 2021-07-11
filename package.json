@@ -1,6 +1,6 @@
 {
   "name": "@orange4glace/vs-lib",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -14,7 +14,8 @@
   "devDependencies": {
     "create-ts-index": "^1.13.6",
     "rollup": "^2.36.1",
-    "typescript": "^4.1.3"
+    "rollup-plugin-styles": "^3.14.1",
+    "typescript": "^4.3.5"
   },
   "dependencies": {
     "@rollup/plugin-typescript": "^8.1.0"
